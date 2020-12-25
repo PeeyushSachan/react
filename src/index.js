@@ -1,17 +1,26 @@
+//var React=require('react');
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//var ReactDom=require('react-dom');
+import ReactDom from 'react-dom';
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+/*ReactDom.render(
+React.createElement("h1",null,"hellow word"),
+document.getElementById('root'));*/
+const name="peeyush"
+ReactDom.render(
+<>
+<h1>Hellow owrd</h1>
+<p>nice{name}</p>
+<ol>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+</ol>
+</>,document.getElementById('root'),
+
+)
